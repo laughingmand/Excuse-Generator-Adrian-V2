@@ -1,5 +1,44 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(https://wallpaper.forfun.com/fetch/17/17d20ce6251ff240480e517e744b76a0.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-body{
+    background-color: rgb(0, 18, 24);
+    color: white;
+    width: 1000px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(0, 88, 122);
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgb(0, 139, 173);
+}
+
+h1 {
+    color: rgb(0, 217, 255);
+    font-size: 80px;
+    font-family: "Goldman", sans-serif;
+}
+
+h2 {
+    color: rgb(0, 174, 255);
+    font-size: 50px;
+    font-family: "Goldman", sans-serif;
+}
+
+.card-title {
+    color: rgb(235, 235, 235);
+    font-family: "Righteous", cursive;
+}
+
+.btn {
+    font-family: "Righteous", cursive;
+    font-size: 15px;
+    background-color: rgb(255, 230, 0);
+    border-color: rgb(208, 255, 0);
+    margin-top: 10px;
 }

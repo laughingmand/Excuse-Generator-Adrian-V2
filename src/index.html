@@ -2,32 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <title>Excuse Generator Adrian V2</title>
+    <script src="https://kit.fontawesome.com/8ade12ddaa.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+
+
+
+   
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
+      <h1 class="m-0">Tu libertad comienza con una buena historia</h1>
+      <h2 class="mb-5">Dale un descanso a tu imaginación, nosotros inventamos por ti</h2>
+    <div class="d-flex mb-3 flex-column align-items-center justify-content-center">
+      <div class="card-body text-center">
+        <h5 id="excuseCats" class="card-title">Si tienes gatos <i class="fa-solid fa-cat fa-bounce" style="color: rgb(255, 212, 59);"></i>, te recomendamos estas opciones</h5>
+        <a id="btnCats" class="btn btn-info">Cargar Excusa...</a>
       </div>
+      <div class="card-body text-center">
+        <h5 id="excuseDogs" class="card-title">Si tienes perros <i class="fa-solid fa-dog fa-bounce" style="color: rgb(255, 212, 59);"></i>, te recomendamos estas opciones</h5>
+        <a id="btnDogs" class="btn btn-info">Cargar Excusa...</a>
+      </div>
+      <div class="card-body text-center">
+        <h5 id="excuseGirlF" class="card-title">Si tienes novia <i class="fa-solid fa-heart fa-bounce" style="color: rgb(255, 212, 59);"></i>, te recomendamos estas opciones (bajo tu propia responsabilidad)</h5>
+        <a id="btnGirlF" class="btn btn-info">Cargar Excusa...</a>
+      </div>
+      <div class="card-body text-center">
+        <h5 id="excuseBed" class="card-title">Si te pesa el...pararte <i class="fa-solid fa-bed fa-bounce" style="color: rgb(255, 212, 59);"></i>, toma estas opciones</h5>
+        <a id="btnBed" class="btn btn-info">Cargar Excusa...</a>
+      </div>
+      
     </div>
+    </div>
+
+
+
+  
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
